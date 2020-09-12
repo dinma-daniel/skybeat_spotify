@@ -1,0 +1,11 @@
+html {
+  font-family: poppins;
+}
+
+.app_body {
+  display: flex;
+}
+
+h1 {
+  font-size: small;
+}

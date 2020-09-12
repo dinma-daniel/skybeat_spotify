@@ -1,0 +1,140 @@
+.search {
+  position: relative;
+  margin-left: 32%;
+
+  top: -70px;
+}
+
+.searc {
+  width: 50%;
+  border-radius: 5px;
+  padding: 8px;
+  text-align: left;
+  padding-left: 26px;
+  background-color: #242f34;
+  border: 2px;
+}
+
+.searc:focus {
+  outline: none;
+}
+
+.artists_body {
+  display: flex;
+}
+
+.containerr {
+  width: 20%;
+  margin: 10px auto;
+}
+
+.a_header {
+  font-size: xx-large;
+  text-align: center;
+  color: white;
+  font-family: poppins;
+  padding-bottom: 60px;
+}
+
+.a_details {
+  margin-left: 10px;
+  padding: 10px;
+  position: relative;
+  top: -45px;
+  height: 200px;
+  left: 20px;
+  display: flex;
+  background: #242f34;
+  border-radius: 5px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.container {
+  margin: 10px auto;
+}
+
+.a_border {
+  margin-left: 90px;
+  width: 80%;
+  padding: 120px;
+  position: relative;
+  top: -45px;
+  height: 300px;
+  margin-bottom: 40px;
+  display: flex;
+  background: #242f34;
+  border-radius: 5px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.a_box {
+  position: absolute;
+  width: 190px;
+  height: 180px;
+  flex-direction: column;
+  background: white;
+  border-radius: 5px;
+  top: -10px;
+  bottom: 0;
+  right: 0;
+  left: -35%;
+  margin: auto;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.a_text {
+  font-size: x-large;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  color: white;
+  font-family: poppins;
+}
+
+@media (max-width: 800px) {
+  .artists_body {
+    flex-direction: column;
+  }
+
+  .containerr {
+    width: 40%;
+    margin: 30px auto;
+  }
+
+  .a_details {
+    left: 0;
+  }
+
+  .a_box {
+    position: absolute;
+    width: 190px;
+    height: 160px;
+    background: white;
+    margin: 0px 10px;
+    border-radius: 5px;
+    top: 15px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  .a_text {
+    font-family: poppins;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    margin: auto;
+  }
+}

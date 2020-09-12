@@ -1,0 +1,29 @@
+.s_border {
+  top: 20px;
+  width: 70%;
+  padding: 10px;
+  position: relative;
+  margin-left: 11%;
+  display: flex;
+  background: #242f34;
+  border-radius: 5px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.c_text {
+  color: white;
+  font-style: bold;
+  font-family: poppins;
+  font-size: x-large;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .s_border {
+    width: 60%;
+    margin-left: 15%;
+  }
+}

@@ -1,0 +1,11 @@
+.Trend_content {
+  overflow-y: overlay;
+  height: 100vh;
+  flex: 0.9;
+  background-color: #1b262c;
+}
+
+.header {
+  font-size: x-large;
+  font-family: poppins;
+}

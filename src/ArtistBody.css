@@ -1,0 +1,7 @@
+.artist_content {
+  height: 100vh;
+  flex: 0.9;
+  background-color: #1b262c;
+  font-family: poppins;
+  overflow-y: overlay;
+}
