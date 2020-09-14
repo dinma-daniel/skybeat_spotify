@@ -21,7 +21,7 @@ function Nav() {
         <div className="navs">Artists</div>
       </Link>
 
-      <a href="https://t.me/SkybeatBot">
+      <a href="https://t.me/SkybeatBot" target="blank">
         <div className="navs">Bot</div>
       </a>
     </div>

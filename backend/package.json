@@ -1,0 +1,21 @@
+{
+  "name": "spotify-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "spotify-api.js": "^2.8.2",
+    "spotify-web-api-js": "^1.5.0",
+    "spotify-web-api-node": "^4.0.0",
+    "telegraf": "^3.38.0"
+  }
+}
